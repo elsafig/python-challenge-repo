@@ -1,4 +1,4 @@
-#given financial dataset called "election_data.csv" with three columns: "Voter ID", "County", and "Candidate"
+#given election dataset called "election_data.csv" with three columns: "Voter ID", "County", and "Candidate"
 
 #variable for file  
 

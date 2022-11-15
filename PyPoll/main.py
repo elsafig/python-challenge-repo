@@ -4,6 +4,9 @@ import csv
 with open("Resources/election_data.csv") as election_file:
     csv_reader = csv.DictReader(election_file)
 
+    #store headers
+    header = next(csv_reader)
+
     #create empty lists
     candidate_votes = []
     candidate_list = []

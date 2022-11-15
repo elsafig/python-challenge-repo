@@ -63,12 +63,7 @@ with open("Resources/budget_data.csv") as budget_file:
 
 # #output "Financial Analysis"
 print(f"Financial Analysis\n----------------------------\nTotal Months: {months}\nTotal: ${net_Total}\nAverage Change: ${avg_profitOrLoss:.2f}\nGreatest Increase in Profits: {greatest_increaseProfit_date} (${greatest_increaseProfit_amount})\nGreatest Decrease in Profits: {greatest_decreaseProfit_date} (${greatest_decreaseProfit_amount})")
-# #output "------------------"
-# #output "Total Months: number_of_months"
-# #output "Total: net_Total"
-# #output "Average Change: avg_profitOrLoss "
-# #output "Greatest Increase in Profits: greatest_increaseProfit"
-# #output "Greatest Decrease in Profits: greatest_decreaseProfit"
+
 
 # #export text file with above results
 with open("analysis/pyBankAnalysis.txt", "w") as analysis_file:
